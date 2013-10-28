@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Foos = Foo.create([
+         { bar: 'You cannot delete me!' },
+         { bar: 'I am undeletable!' },
+         { bar: 'I look different in production' }
+       ])
